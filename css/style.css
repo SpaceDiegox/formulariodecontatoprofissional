@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+form fieldset{
+    box-sizing: border-box;
+    border: 3px solid black;
+    padding: 20px 40px;
+    border-radius: 5px;
+
+}
+form legend{
+    font-size: 17px;
+    color: gray;
+}
+form input[type=text]{
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+}
+form input[type=text]:focus{
+    background-color: aliceblue;
+}
+
+form select{
+    width:calc(80% + 26px);
+    margin-top: 30px;
+    padding: 10px 13px;
+    display: inline-block;
+}
